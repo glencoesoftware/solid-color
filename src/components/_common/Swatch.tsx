@@ -1,6 +1,6 @@
 import { createSignal, JSX, mergeProps } from 'solid-js'
 import { Checkboard } from './Checkboard'
-import { useColorPicker } from './ColorPicker'
+import { useColorPicker } from '.'
 
 const ENTER = 13
 

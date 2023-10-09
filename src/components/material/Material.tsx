@@ -1,8 +1,7 @@
 import { merge } from 'lodash-es'
 import { JSX, mergeProps } from 'solid-js'
 import { ChangeColor, RgbColor } from '../../types'
-import { EditableInput, Raised } from '../_common'
-import { useColorPicker, withColorPicker } from '../_common/ColorPicker'
+import { EditableInput, Raised, useColorPicker, withColorPicker } from '../_common'
 import { isValidHex } from '../../helpers/color'
 
 export type MaterialPickerProps = {
