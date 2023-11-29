@@ -1,4 +1,4 @@
-import { useColorPicker, withColorPicker } from '../_common/ColorPicker'
+import { useColorPicker, withColorPicker } from '../_common'
 import { ChangeColor } from '../../types'
 import { Hue } from '../_common'
 import HuePointer from './HuePointer'
